@@ -63,16 +63,16 @@ interface Print
         {
             if(isLeapYear(i))
             {
-                totalDays += 366;
+                totalDays = totalDays + 366;
             }
             else
             {
-                totalDays += 365;
+                totalDays = totalDays + 365;
             }
         }
         for(int i = 1; i < month; i++)
         {
-            totalDays += getNumberOfDaysInMonth(year,month);
+            totalDays = totalDays + getNumberOfDaysInMonth(year,i);
         }
         return totalDays;
     }
@@ -97,7 +97,7 @@ interface Print
                 return 30;
             }
         }
-        if(month == 2 && !leapYear)
+        if(month == 2 && leapYear)
         {
             return 29;
         }else
