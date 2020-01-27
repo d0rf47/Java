@@ -21,14 +21,17 @@ public class Main
                 return this.area;
             }
         };
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(s3);
+        System.out.println("s1 " + s1);
+        System.out.println("s2 " + s2);
+        System.out.println("s3 " + s3);
         //upcast
         s1 = s2;
-        System.out.println(s1);
-
-
+        System.out.println("s1 " + s1);
+        s1 = (Shape)s1;
+        s1 = (Circle)s3;
+        //downcast
+        s3 = (Circle)s1;
+        System.out.println("s1 " + s3);
     }
 
 }
