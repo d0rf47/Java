@@ -1,5 +1,4 @@
 package Shapes;
-
 /**Tester Class for Shape
  * Demonstrates
  *      Interface extension
@@ -7,6 +6,7 @@ package Shapes;
  *      Inheritance
  *      Abstract base Classes
  *      True Polymorphic equality
+ * @author Michael Falconi
  */
 public class Main
 {

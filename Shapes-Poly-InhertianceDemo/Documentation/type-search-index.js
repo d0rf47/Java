@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"Shapes","l":"Circle"},{"p":"Shapes","l":"Main"},{"p":"Shapes","l":"Shape"},{"p":"Shapes","l":"ShapeInterface"},{"p":"Shapes","l":"Square"},{"p":"Shapes","l":"Triangle"}]
